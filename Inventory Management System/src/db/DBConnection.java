@@ -7,11 +7,11 @@ import java.sql.Statement;
 
 public class DBConnection {
     // MySQL connection details (without database name for initial connection)
-    private static final String URL_ROOT = "jdbc:mysql://localhost:3306/";
+    private static final String URL_ROOT = "jdbc:mysql://localhost:3306/"; //Change if needed
     private static final String DB_NAME = "inventory_db";
     private static final String URL = URL_ROOT + DB_NAME;
-    private static final String USER = "root";        // change as needed
-    private static final String PASSWORD = "sas367"; // change as needed
+    private static final String USER = "root";      // Your MySQL username, Change if its not in root
+    private static final String PASSWORD = ""; // Enter your MySQL password
 
     // Static block to ensure database and tables exist when class is loaded
     static {
@@ -87,9 +87,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/inventory_db";
-    private static final String USER = "root";      // your MySQL username
-    private static final String PASSWORD = "sas367"; // your MySQL password
+    private static final String URL = "jdbc:mysql://localhost:3306/inventory_db";  //Change if needed
+    private static final String USER = "root";      // Your MySQL username, Change if its not in root
+    private static final String PASSWORD = ""; // Enter your MySQL password
 
     public static Connection getConnection() throws SQLException {
         try {
