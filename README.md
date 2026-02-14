@@ -68,7 +68,7 @@ git clone https://github.com/yourusername/inventory-management-system.git
 ```
 Or download the ZIP and extract it.
 
-### 2. Set Up the MySQL Database
+### 2. Set Up the MySQL Database (Only if you are setting up manually)
 
 - Open **MySQL Workbench** (or the MySQL command line).
 - Run the provided SQL script `database_setup.sql` (or create the database manually using the script below).  
