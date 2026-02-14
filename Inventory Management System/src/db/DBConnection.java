@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/inventory_db";
-    private static final String USER = "root";      // your MySQL username
-    private static final String PASSWORD = "sas367"; // your MySQL password
+    private static final String URL = "jdbc:mysql://localhost:3306/inventory_db"; //Make changes if needed
+    private static final String USER = "";      // Enter your MySQL username (root is default)
+    private static final String PASSWORD = ""; // Enter your MySQL password
 
     public static Connection getConnection() throws SQLException {
         try {
@@ -17,4 +17,5 @@ public class DBConnection {
             throw new SQLException("MySQL JDBC Driver not found.", e);
         }
     }
+
 }
