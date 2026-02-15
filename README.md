@@ -175,6 +175,12 @@ InventoryProject/
 
 ---
 
+## Video Demonstartion
+
+Youtube Link: [https://youtu.be/jCboY__9Vv4](https://youtu.be/jCboY__9Vv4)
+
+---
+
 ## Author
 
 Developed by Rijwal V P and Siddhartha Sanjai – feel free to contribute or report issues on [GitHub](https://github.com/yourusername/inventory-management-system).
